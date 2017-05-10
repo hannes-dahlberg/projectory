@@ -1,0 +1,24 @@
+{
+	"authHost": "http://laravel-vue.app",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "385cfed96fa2f3ad",
+			"key": "8729f0c61db626b39602cef1571e64ad"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": null,
+	"port": "6001",
+	"protocol": "http",
+	"socketio": {},
+	"sslCertPath": "",
+	"sslKeyPath": ""
+}

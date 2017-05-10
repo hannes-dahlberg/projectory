@@ -1,0 +1,21 @@
+@media(min-width: $grid-float-breakpoint) {
+    .navbar.navbar-fixed-top {
+        &.navbar-folded {
+            //background-color: rgba(0, 0, 0, 0.5);
+            min-height: 30px;
+            .nav.navbar-nav > li.divider {
+                height: 30px;
+            }
+            .navbar-brand {
+                padding: 4px 10px;
+                height: 30px !important;
+            }
+            .nav.navbar-nav a {
+                padding: 4px 10px !important;
+            }
+        }
+        &, .nav.navbar-nav > li.divider, .container, .navbar-brand, .nav.navbar-nav a {
+            transition: 0.5s;
+        }
+    }
+}
